@@ -1,7 +1,9 @@
 # Contributing code to [Suran Systems, Inc.'s](http://www.suran.com) repositories
 
 ## How to contribute
-Pull requests are more than welcome! If submitting a change in the Omnis code, please include a README.txt file noting the changes. If your pull request is approved, the maintainers will manually merge in your changes to the `omniscli.lbs` file in the repository. We plan to migrate our libraries to Omnis Studio 8.1 in Fall 2017. Once that is complete, we will update these guidelines to use the JSON version of the library for easier collaboration.
+Pull requests are more than welcome! If submitting a change in the Omnis code and you're running Omnis Studio version 8.1 or later, simply update the `src/[project]` directory with a JSON export of your library and submit the pull request. If your pull request is approved, the maintainers will manually merge your changes into the libraries under `lib`.
+
+If you're running a version of Studio earlier than 8.1, please submit a pull request with your updated library and a README.txt file noting the changes. If your pull request is approved, the maintainers will manually merge in your changes the supported libraries and build a new JSON export under `src`.
 
 ## Conventions
 Suran uses several coding conventions that may be foreign to some Omnis developers. When contributing, please try to adhere to these standards.
